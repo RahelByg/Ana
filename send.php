@@ -9,6 +9,6 @@ $headers ="De: ".$mailFrom.".\n\n".$message;
 $txt = "Has recibido un correo de ".$name;
 
 mail($mailTo, $txt, $headers);
-header("Location: /gracias");
+header("Location: /Ana/gracias");
 }
  ?>
